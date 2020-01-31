@@ -1,0 +1,10 @@
+﻿<Sql TableName="FirefliesConfig" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="FirefliesConfig">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="APIEndPoint" type="NVarChar(255)" />
+  <col name="Apikey" type="NVarChar(400)" nullable="true" />
+  <index name="FirefliesConfig_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>
